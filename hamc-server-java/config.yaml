@@ -9,8 +9,10 @@ arch:
   - armv7
 ports:
   25565/tcp: "25565"
+  19132/udp: "19132"
 ports_description:
   25565/tcp: Minecraft Server Port
+  19132/udp: Minecraft Bedrock Server Port
 options:
   VERSION: LATEST
   SERVER_NAME: "HAMC Java Server"
